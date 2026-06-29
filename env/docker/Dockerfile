@@ -46,4 +46,6 @@ ENV PYTHONPATH="/workspace/protein-foundation-models/src"
 
 # Default entrypoint: activate venv, run passed command or open interactive bash
 COPY env/docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN groupadd -g 10513 domainusers && useradd -m -u 20573 -g 10513 -s /bin/bash hari.koneru
+USER hari.koneru
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
