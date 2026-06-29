@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: colabdesign
+Version: 1.1.1.1
+Summary: Local modified version of ColabDesign
+Description-Content-Type: text/markdown
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: summary
+
+Making Protein Design accessible to all via Google Colab! (Local version)

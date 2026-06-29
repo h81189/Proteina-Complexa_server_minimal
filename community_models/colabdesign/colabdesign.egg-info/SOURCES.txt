@@ -1,0 +1,5 @@
+setup.py
+colabdesign.egg-info/PKG-INFO
+colabdesign.egg-info/SOURCES.txt
+colabdesign.egg-info/dependency_links.txt
+colabdesign.egg-info/top_level.txt
